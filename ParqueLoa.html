@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Parque Río Loa | Oasis Calama</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styleSesion.css">
+</head>
+<body>
+
+    <img src="img/Parque_RioLoa.jpeg" class="background">
+
+    <header class="topbar">
+
+        <a href="index.html">
+            <img src="img/LogoB.png" class="logo-img">
+        </a>
+
+        <div class="topbar-right">
+
+            <a href="inicio_sesion.html" class="login-btn">
+                Iniciar sesión
+            </a>
+
+            <button id="menu-btn" class="menu-btn">
+                <span id="menu-icon">☰</span>
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar" id="sidebar">
+
+        <a href="index.html">Inicio</a>
+        <a href="index.html#rutas">Rutas</a>
+        <a href="#experiencias">Packs</a>
+        <a href="#alojamientos">Alojamientos</a>
+        <a href="#gastronomia">Gastronomía</a>
+
+    </div>
+
+    <!-- HERO -->
+
+    <main class="main-content">
+
+        <section class="loa-hero">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6">
+
+                        <div class="hero-card">
+
+                            <span class="hero-subtitle">
+                                PARQUE RÍO LOA
+                            </span>
+
+                            <h1 class="hero-title">
+                                Naturaleza viva en el corazón del desierto
+                            </h1>
+
+                            <p class="hero-description">
+                                Descubre uno de los lugares más emblemáticos de Calama,
+                                donde la tranquilidad del río, la cultura atacameña y
+                                los paisajes nortinos crean una experiencia única.
+                            </p>
+
+                            <button class="hero-btn" id="openReservation">
+                                Reservar experiencia
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="info-panel">
+
+                            <div class="info-box">
+                                <span>Ubicación</span>
+                                <h3>Calama, Chile</h3>
+                            </div>
+
+                            <div class="info-box">
+                                <span>Duración</span>
+                                <h3>2 Horas</h3>
+                            </div>
+
+                            <div class="info-box">
+                                <span>Dificultad</span>
+                                <h3>Baja</h3>
+                            </div>
+
+                            <div class="info-box">
+                                <span>Valoración</span>
+                                <h3>4.9 / 5</h3>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- EXPERIENCIAS -->
+
+<section class="experience-section" id="experiencias">
+
+    <div class="container">
+
+        <div class="experience-header">
+
+            <span class="experience-subtitle">
+                EXPERIENCIAS DISPONIBLES
+            </span>
+
+            <h2 class="experience-title">
+                Elige cómo vivir Parque Río Loa
+            </h2>
+
+            <p class="experience-text">
+                Cada experiencia fue diseñada para distintos tipos de viajeros,
+                desde recorridos rápidos hasta aventuras completas con gastronomía,
+                alojamiento y atención personalizada.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- BASICA -->
+
+            <div class="col-lg-4">
+
+                <div class="experience-card">
+                    <div id="basicCarousel" class="carousel slide experience-carousel" data-bs-ride="carousel">
+
+                        <div class="carousel-inner rounded-4">
+
+                            <div class="carousel-item active">
+                                <img src="img/Loa1.jpg" class="d-block w-100 exp-img">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/Loa2.jpg" class="d-block w-100 exp-img">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <h3>
+                        Ruta básica
+                    </h3>
+
+                    <span class="experience-price">
+                        Desde $15.000
+                    </span>
+
+                    <p>
+                        Recorrido guiado por los sectores más representativos
+                        del Parque Río Loa, incluyendo miradores, espacios
+                        culturales y explicación histórica de la zona.
+                    </p>
+
+                    <ul>
+
+                        <li>Guía turístico</li>
+                        <li>Ingreso al parque</li>
+                        <li>Duración de 4 horas</li>
+                        <li>Recorrido grupal</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- TRANSPORTE -->
+
+            <div class="col-lg-4">
+
+                <div class="experience-card premium">
+                    <div id="carouselTransport" class="carousel slide experience-carousel" data-bs-ride="carousel">
+
+                        <div class="carousel-inner rounded-4">
+
+                            <div class="carousel-item active">
+                                <img src="img/Loa3.jpg" class="d-block w-100 exp-img">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/Loa4.jpg" class="d-block w-100 exp-img">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <h3>
+                        Ruta + transporte
+                    </h3>
+
+                    <span class="experience-price">
+                        Desde $40.000
+                    </span>
+
+                    <p>
+                        Incluye transporte ida y vuelta desde Calama,
+                        acompañamiento turístico y paradas estratégicas
+                        para disfrutar del paisaje y tomar fotografías.
+                    </p>
+                    <ul>
+                        <li>Transporte incluido</li>
+                        <li>Guía especializado</li>
+                        <li>Paradas fotográficas</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- COMPLETO -->
+            <div class="col-lg-4">
+
+                <div class="experience-card luxury">
+
+                    <div id="carouselPremium" class="carousel slide experience-carousel" data-bs-ride="carousel">
+
+                        <div class="carousel-inner rounded-4">
+
+                            <div class="carousel-item active">
+                                <img src="img/Loa5.jpg" class="d-block w-100 exp-img">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="img/Loa6.jpg" class="d-block w-100 exp-img">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <h3>
+                        Pack completo
+                    </h3>
+
+                    <span class="experience-price">
+                        Desde $85.000
+                    </span>
+
+                    <p>
+                        Una experiencia premium que combina recorrido privado,
+                        alojamiento, gastronomía regional y atención
+                        personalizada durante toda la jornada.
+                    </p>
+
+                    <ul>
+                        <li>Hotel incluido</li>
+                        <li>Ruta privada</li>
+                        <li>Atención personalizada</li>
+                    </ul>
+
+                </div>
+
+            </div>
+</section>
+<section class="food-section" id="gastronomia">
+
+    <div class="container">
+
+        <div class="experience-header">
+
+            <span class="experience-subtitle">
+                GASTRONOMÍA ATACAMEÑA
+            </span>
+
+            <h2 class="experience-title">
+                Sabores del desierto
+            </h2>
+
+            <p class="experience-text">
+                Complementa tu aventura con experiencias gastronómicas
+                inspiradas en la cultura nortina y los sabores típicos
+                de la región de Antofagasta.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- OPCION 1 -->
+
+            <div class="col-lg-6">
+
+                <div class="food-card">
+                    <img src="img/LoaG2.jpg" class="food-img">
+                    <h3>
+                        Almuerzo nortino
+                    </h3>
+
+                    <span>
+                        Extra desde $12.000
+                    </span>
+
+                    <p>
+                        Disfruta sabores tradicionales del norte de Chile
+                        durante una pausa en el recorrido, con platos típicos
+                        inspirados en la cultura atacameña.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- OPCION 2 -->
+
+            <div class="col-lg-6">
+
+                <div class="food-card premium-food">
+                    <img src="img/LoaG4.jpg" class="food-img">
+                    <h3>
+                        Experiencia premium
+                    </h3>
+
+                    <span>
+                        Extra desde $25.000
+                    </span>
+
+                    <p>
+                        Una experiencia gastronómica más exclusiva con
+                        degustaciones regionales, presentación especial
+                        y ambiente inspirado en el desierto de Atacama.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="hotel-section" id="alojamientos">
+
+    <div class="container">
+
+        <div class="experience-header">
+
+            <span class="experience-subtitle">
+                ALOJAMIENTOS
+            </span>
+
+            <h2 class="experience-title">
+                Descansa después de tu aventura
+            </h2>
+
+            <p class="experience-text">
+                Complementa tu experiencia con alojamientos
+                cómodos inspirados en la esencia del desierto
+                y la tranquilidad del norte de Chile.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- HOTEL 1 -->
+
+            <div class="col-lg-6">
+
+                <div class="hotel-card">
+
+                    <img src="img/hotel-ayquina.jpg" class="hotel-img">
+
+                    <h3>
+                        Hotel Ayquina
+                    </h3>
+
+                    <span>
+                        Desde $45.000
+                    </span>
+
+                    <p>
+                        Ambiente acogedor y tranquilo,
+                        ideal para viajeros que buscan
+                        descanso luego del recorrido.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- HOTEL 2 -->
+
+            <div class="col-lg-6">
+
+                <div class="hotel-card premium-hotel">
+
+                    <img src="img/hotel-desierto-dorado.jpg" class="hotel-img">
+
+                    <h3>
+                        Hotel Desierto Dorado
+                    </h3>
+
+                    <span>
+                        Desde $80.000
+                    </span>
+
+                    <p>
+                        Experiencia premium con habitaciones
+                        amplias, atención personalizada y
+                        ambiente inspirado en Atacama.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    </main>
+
+    <!-- MODAL RESERVA -->
+
+<div class="reservation-modal" id="reservationModal">
+
+    <div class="reservation-card">
+
+        <button class="close-modal" id="closeModal">
+            ✕
+        </button>
+        <h2>
+            Reserva tu experiencia
+        </h2>
+        <p class="reservation-subtitle">
+            Personaliza tu aventura en Parque Río Loa.
+        </p>
+
+        <!-- FORM -->
+
+        <div class="reservation-form">
+
+            <!-- TIPO -->
+
+            <div class="form-group">
+
+                <label>
+                    Tipo de experiencia
+                </label>
+
+                <select id="experienceType">
+
+                    <option value="15000">
+                        Solo ruta básica
+                    </option>
+
+                    <option value="40000">
+                        Ruta + transporte
+                    </option>
+
+                    <option value="85000">
+                        Pack completo
+                    </option>
+
+                </select>
+
+            </div>
+
+            <!-- PERSONAS -->
+
+            <div class="form-group">
+
+                <label>
+                    Cantidad de personas
+                </label>
+
+                <input type="number" id="peopleCount" value="1" min="1">
+
+            </div>
+
+            <!-- HORARIO -->
+
+            <div class="form-group">
+
+                <label>
+                    Horario disponible
+                </label>
+
+                <select id="schedule">
+
+                    <option>
+                        09:00 AM
+                    </option>
+
+                    <option>
+                        02:00 PM
+                    </option>
+
+                    <option>
+                        07:00 PM
+                    </option>
+
+                </select>
+
+            </div>
+
+            <!-- PRIVADO -->
+
+            <div class="form-group">
+
+                <label>
+                    Modalidad
+                </label>
+
+                <select id="privateOption">
+
+                    <option value="0">
+                        Público
+                    </option>
+
+                    <option value="30000">
+                        Privado
+                    </option>
+
+                </select>
+
+            </div>
+
+            <!-- HOTEL -->
+
+            <div class="form-group">
+
+                <label>
+                    Alojamiento
+                </label>
+
+                <select id="hotelOption">
+
+                    <option value="0">
+                        Sin alojamiento
+                    </option>
+
+                    <option value="45000">
+                        Hotel Ayquina
+                    </option>
+
+                    <option value="80000">
+                        Hotel Desierto Dorado
+                    </option>
+
+                </select>
+
+            </div>
+
+            <!-- COMIDA -->
+
+            <div class="form-group">
+
+                <label>
+                    Experiencia gastronómica
+                </label>
+
+                <select id="foodOption">
+
+                    <option value="0">
+                        No incluir
+                    </option>
+
+                    <option value="12000">
+                        Almuerzo nortino
+                    </option>
+
+                    <option value="25000">
+                        Experiencia premium
+                    </option>
+
+                </select>
+
+            </div>
+
+            <!-- TOTAL -->
+
+            <div class="total-box">
+
+                Total estimado:
+                <span id="totalPrice">
+                    $15.000
+                </span>
+
+            </div>
+
+            <!-- BOTON -->
+
+            <button class="reserve-btn" id="payButton">
+                Confirmar Reserva
+            </button>
+
+            <!-- MENSAJE -->
+
+            <p class="login-warning" id="loginWarning">
+
+                Debes iniciar sesión para completar la reserva.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scriptLoa.js"></script>
+</body>
+</html>
